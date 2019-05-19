@@ -361,10 +361,8 @@
   </action>
   <action name="actionConfigure">
    <property name="icon">
-    <iconset>
-     <normaloff>../res/icons/lynny-2x_white/Settings 1.png</normaloff>
-     <normalon>../res/icons/lynny-2x/Settings 1.png</normalon>
-     <activeon>../res/icons/lynny-2x_white/Settings 1.png</activeon>../res/icons/lynny-2x_white/Settings 1.png</iconset>
+    <iconset resource="../res/icons/icons.qrc">
+     <normaloff>:/lynny-2x_white/Settings 1.png</normaloff>:/lynny-2x_white/Settings 1.png</iconset>
    </property>
    <property name="text">
     <string>Configure port...</string>
@@ -391,6 +389,8 @@
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="../res/icons/icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

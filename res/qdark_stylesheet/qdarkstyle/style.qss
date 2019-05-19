@@ -1021,7 +1021,7 @@ QToolButton:hover,
 QToolButton::menu-button:hover {
     background-color: transparent;
     border: 1px solid #3daee9;
-    padding: 5px;
+    padding: 3px;
 }
 
 QToolButton:checked,
@@ -1029,7 +1029,7 @@ QToolButton:pressed,
 QToolButton::menu-button:pressed {
     background-color: #3daee9;
     border: 1px solid #3daee9;
-    padding: 5px;
+    padding: 3px;
 }
 
 
